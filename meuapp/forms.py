@@ -1,7 +1,7 @@
 from django import forms
-from .models import pessoa
+from .models import Pessoa
 
 class PessoaForm(forms.ModelForm):
     class Meta:
-        model = pessoa
+        model = Pessoa
         fields = ['nome', 'idade', 'email', 'telefone']

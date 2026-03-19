@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import pessoa
+from .models import Pessoa
 
 
-admin.site.register(pessoa)
+admin.site.register(Pessoa)
 
 # Register your models here.
